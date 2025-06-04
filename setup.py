@@ -15,6 +15,7 @@ setup(
     install_requires=[
         "numpy",   # Add your dependencies here
         "pandas",
+        "Flask",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
