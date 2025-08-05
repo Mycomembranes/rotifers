@@ -1,0 +1,31 @@
+{
+  "genbank_id": "ABC123",
+  "sequence_length": 9,
+  "psi_blast_hits": [
+    {
+      "hit_id": "ABC123_HIT1",
+      "evalue": 1e-05
+    },
+    {
+      "hit_id": "ABC123_HIT2",
+      "evalue": 2e-05
+    }
+  ],
+  "clusters": {
+    "cluster_1": [
+      0,
+      1
+    ]
+  },
+  "neighborhood_diagram": {
+    "blocks": [
+      {
+        "cluster": "cluster_1",
+        "members": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}
